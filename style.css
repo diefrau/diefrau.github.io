@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
 body {
+  font-family: "Noto Sans CJK KR";
   margin: 0;
   background-color: #E3E3E3;
 }
@@ -41,4 +42,15 @@ a {
   left: 50%;
   top 50%;
   transform: translate(-50%, -50%);
+}
+#aboutgrid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  margin-top: 3rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  font-weight: 200;
+}
+.introme {
+  padding-left: 40px;
 }
