@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+body {
+  margin: 0;
+  background-color: #E3E3E3;
+}
+a {
+  text-decoration: none;
+}
+.hd {
+  font-family: "Noto Sans CJK KR";
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.hdlg {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-left: 1rem;
+  color: black;
+}
+.hdr {
+  display: inline;
+}
+.hdrr {
+  display: inline;
+  padding-right: 1rem;
+}
+.hdrrr {
+  color: black;
+}
+.main {
+  align-items: center;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  font-family: "Noto Sans CJK KR";
+}
+.hi {
+  font-weight: 200;
+  font-size: 4rem;
+  position: absolute;
+  left: 50%;
+  top 50%;
+  transform: translate(-50%, -50%);
+}
